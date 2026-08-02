@@ -1,7 +1,29 @@
 aid: vennre
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vennre.png
 name: Vennre
-description: Vennre is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Vennre is a Sharia-compliant private-market investing platform built for HENRYs
+  (High Earners, Not Rich Yet). It curates and vets institutional-grade
+  opportunities across real estate, private equity, venture capital and private
+  credit from leading global managers, lowering entry thresholds so members can
+  start building wealth from as little as $5,000. Delivered through a mobile app
+  and web experience with a smart wallet, portfolio tracking and personalized
+  wealth coaching, the platform is regulated in the UK as an appointed
+  representative of Talbot Capital Ltd (FCA FRN 489839) and operates in Saudi
+  Arabia under the Capital Market Authority (CMA License 19206-20). Vennre is a
+  consumer wealthtech product; no public developer API or developer platform is
+  published at this time.
 url: https://raw.githubusercontent.com/api-evangelist/vennre/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Wealthtech
+- Wealth Management
+- Private Markets
+- Investing
+- Sharia-Compliant
+- Real Estate
+- Private Equity
+- Venture Capital
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,22 @@ maintainers:
 common:
 - type: Website
   url: https://vennre.com
+- type: About
+  url: https://vennre.com/about
+- type: SignUp
+  url: https://vennre.com/sign-up
+- type: Support
+  url: https://vennre.com/faq
+- type: Blog
+  url: https://vennre.com/insightsmedia
+- type: TermsOfService
+  url: https://vennre.com/terms-conditions
+- type: PrivacyPolicy
+  url: https://vennre.com/privacypolicy
+- type: Compliance
+  url: https://vennre.com/regulation-compliance
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
